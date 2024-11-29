@@ -1,8 +1,20 @@
-.header {
+header {
     .klee-one-regular {
         font-family: "Klee One", serif;
         font-weight: 400;
         font-style: normal;
       }
+    
+    background-color: blue;
+    display: flex;
+    padding: 6px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
       
+}
+
+.tema {
+  text-align: right;
 }
