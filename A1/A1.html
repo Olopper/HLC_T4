@@ -15,16 +15,17 @@
         <h1>Bloc de notas</h1>
         <div class="tema">
             <label for="tema">Tema:</label>
-        <select id="tema">
-            <option value="Claro">🌞 Claro</option>
-            <option value="Oscuro">🌙 Oscuro</option>
-            <option value="Azul">🌊 Azul</option>
-            <option value="Rosa">🌸 Rosa</option>
-            <option value="Verde">🍃 Verde</option>
-        </select>
+            <select id="tema">
+                <option value="Claro" style="background-color: white;">🌞 Claro</option>
+                <option value="Oscuro" style="background-color: black; color: white;" >🌙 Oscuro</option>
+                <option value="Azul" style="background-color: aqua; color: blue;">🌊 Azul</option>
+                <option value="Rosa" style="background-color: pink; color: white;">🌸 Rosa</option>
+                <option value="Verde" style="background-color: green; color: greenyellow;">🍃 Verde</option>
+            </select>
         </div>
     </header>
-    <textarea name="textarea" rows="10" cols="50" placeholder="Escribe tu nota aquí..."></textarea>
+    <textarea class="textarea" name="textarea" rows="10" cols="50" placeholder="Escribe tu nota aquí..."></textarea>
+    <button type="submit" class="">Añadir nota</button>  
     <script src="A1.js"></script>
 </body>
 </html>

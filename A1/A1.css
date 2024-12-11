@@ -1,3 +1,7 @@
+body {
+  margin: 0%;
+}
+
 header {
     .klee-one-regular {
         font-family: "Klee One", serif;
@@ -17,4 +21,10 @@ header {
 
 .tema {
   text-align: right;
+}
+
+.textarea {
+  display: flex;
+  margin: 1%;
+  width: 95%;
 }
